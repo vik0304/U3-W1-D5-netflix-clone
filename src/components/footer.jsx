@@ -92,7 +92,9 @@ function FooterMain() {
             </Col>
           </Row>
           <Row>
-            <Col className="mb-2 mt-2 copyright">© 1997-2023 Netflix, Inc.</Col>
+            <Col className="mb-2 mt-2 copyright">
+              © 1997-{new Date().getFullYear()} Netflix, Inc.
+            </Col>
           </Row>
         </Col>
       </Row>
