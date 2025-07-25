@@ -31,16 +31,16 @@ function NavbarMain() {
           </Nav>
           <Nav className="ms-auto">
             <Nav.Link href="#home">
-              <Search className="text-light" />
+              <Search className="text-light fs-5" />
             </Nav.Link>
-            <Nav.Link href="#link" className="text-light">
+            <Nav.Link href="#link" className="text-light fs-5">
               KIDS
             </Nav.Link>
             <Nav.Link href="#link">
-              <Bell className="text-light" />
+              <Bell className="text-light fs-5" />
             </Nav.Link>
             <Nav.Link href="#link">
-              <PersonCircle className="text-light" />
+              <PersonCircle className="text-light fs-5" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
