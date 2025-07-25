@@ -1,0 +1,24 @@
+.animationTile {
+  transition: transform 0.2s;
+}
+
+.animationTile:hover {
+  transform: scale(1.1);
+}
+
+.poster-style {
+  height: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (min-width: 992px) {
+  .poster-style {
+    height: 320px;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .poster-style {
+    height: 365px;
+  }
+}
